@@ -1,0 +1,291 @@
+@font-face {
+    font-family: SodoBold;
+    src: url('./fonts/sodo-sans-9.otf');
+}
+@font-face {
+    font-family: SodoRegular;
+    src: url('./fonts/sodo-sans-8.otf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SodoBold;
+}
+
+li{
+    list-style: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content:stretch;
+    flex-direction: row;
+    height: 99px;
+    width: 100%;
+    border-bottom: 0.3px solid rgb(0,0,0,0.1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+}
+.logo{
+    width: 120px;
+    padding: 10px;
+    margin-right: 50px;
+}
+#logo{
+    width: 120px;
+    margin-left: 30px;
+
+}
+.nav-ul{
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+.nav-item{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 1440px;
+}
+.nav-list-item{
+    margin-right: 24px;
+}
+.nav-cta{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 326px;
+    color: #000000de;
+}
+.nav-links{
+    color: #000000de;
+}
+section{
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    align-items: center;
+    margin: 32px 0px;
+}
+.tea,.text-content{
+    width: 720px;
+}
+.text-content{
+    padding: 32px 48px;
+    background-color: #32462f;
+    color: #fff;
+    height: 625px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    height: 190px;
+    width: 1440px;
+    margin: 0px 100px;
+    font-size: 14px;
+    padding: 32px;
+}
+.text-container{
+    font-family: SodoRegular;
+    width: 742px;
+    text-align: center;
+}
+#list-item{
+    display:block;
+    margin-bottom:24px;
+    color:#00000094;
+    text-decoration: none;
+    font-family: SodoRegular;
+    font-weight: 400px;
+    }
+
+.contactUs{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: flex-start;
+    margin-right: 320px;
+    
+}
+.contact-list{
+    width: 190px;
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.heading{
+    font-size: 19px;
+    margin-bottom: 24px;
+    color: #000000de;
+}
+.privacy{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+i{
+    color: #000;;
+    scale:1.8;
+    padding: 15px;
+    
+}
+footer{
+    width: 1440px;
+    align-items: center;
+    
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    margin-right: 320px;
+
+}
+a{
+    text-decoration: none;
+
+}
+.container{
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.text-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.coffee{
+    height: 420px;
+    padding: 32px 48px;
+    background-color: #32462f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.coffee-title{
+    font-size: 24px;
+    text-align: center;
+    margin: 24px;
+}
+
+.coffee-para{
+    font-size: 19px;
+    text-align: center;
+    margin: 18px;
+}
+
+.coffee-cta{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 32px;
+    padding: 7px 16px;
+    border: 1px solid white;
+    border-radius: 18px;
+    text-align: center;
+    margin: 30px;
+}
+
+
+.text-titles{
+    font-size: 50px;
+    letter-spacing: 2;
+    font-weight: 600;
+    text-align: center;
+    margin: 30px;
+}
+.text-para{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: SodoRegular;
+    text-align: center;
+    margin: 60px;
+}
+
+.text-cta{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 32px;
+    padding: 7px 16px;
+    border: 1px solid white;
+    border-radius: 18px;
+    text-align: center;
+    
+}
+.privacy-list{
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #000000de;
+    font-weight: 400;
+    font-family: SodoRegular;
+}
+.copyright{
+    color: #00000094;
+    font-size: 14px;
+    padding: 16px 0px;
+}
+
+.footer-section{
+    border-top: 0.3px solid rgba(0, 0, 0, 0.1);
+}
+
+.social-media{
+    margin: 30px 0px;
+}
+.border-line{
+    width: 100%;
+    border-top: 0.2px solid rgba(0, 0, 0, 0.2);
+     box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+.signin-btn{
+    padding: 7px 16px;
+    border: 1px solid #32462f;
+    border-radius: 18px;
+    color: #000000de;
+
+    
+}
+
+.join-btn{
+    padding: 7px 16px;
+    border: 1px solid #000000de;
+    border-radius: 18px;
+    color: white;
+    background-color: #000000de;
+
+}
+
+.fa-location-dot{
+    scale: 1.3;
+}
+
+
+
